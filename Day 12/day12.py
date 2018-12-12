@@ -47,6 +47,7 @@ def part1(inp):
     last = sum([i-initial for i in range(len(inp)) if inp[i]=='#'])
     f=0
     prev = 0
+    #For part 1 just change this range to 20 and take the first number that ouputs
     for i in range(500):
         replace = inp+[]
         for j in range(2,len(inp)-2):
